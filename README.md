@@ -19,3 +19,7 @@ The violations are detected from real time surveillance camera feed. When a viol
 - sample_data - Contains video feed of Surveillance Camera
 - pictures - Pictures of numberplate of violating vehicles
 - output - Results written to log.csv
+
+## Note
+- Replace firebase-key.json with your Google Service Account access Key
+- In traffic-violation-detection-roads.py, replace the marked locations with your firebase database API key and email credentials
