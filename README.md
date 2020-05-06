@@ -14,3 +14,8 @@ The violations are detected from real time surveillance camera feed. When a viol
 
 ## Packages Installed
     Dlib, OpenCV-4.2.0.32, Pyrebase-3.0.27, smtplib, threading, requests
+
+## Usage
+- sample_data - Contains video feed of Surveillance Camera
+- pictures - Pictures of numberplate of violating vehicles
+- output - Results written to log.csv
