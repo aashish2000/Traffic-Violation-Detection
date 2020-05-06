@@ -10,7 +10,7 @@ The violations are detected from real time surveillance camera feed. When a viol
 
 ## Implementation Diagram
 
-![implementation](aashish2000/Traffic-Violation-Detection//blob/master/assets/structure.png)
+![implementation](assets/structure.png)
 
 ## Packages Installed
     Dlib, OpenCV-4.2.0.32, Pyrebase-3.0.27, smtplib, threading, requests
