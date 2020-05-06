@@ -5,9 +5,8 @@
 ### venv ###
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
-
-*/sample_data/*
 !sample_data/traffic.mp4
+### sample_data/*
 .Python
 traffic-violation-detection.py
 pyvenv.cfg
