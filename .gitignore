@@ -5,8 +5,10 @@
 ### venv ###
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+!sample_data
+sample_data/*
 !sample_data/traffic.mp4
-### sample_data/*
+
 .Python
 traffic-violation-detection.py
 pyvenv.cfg
@@ -20,18 +22,5 @@ venv.bak/
 pip-selfcheck.json
 !firebase-key.json
 *.json
-### Video ###
-*.3g2
-*.3gp
-*.asf
-*.asx
-*.avi
-*.flv
-*.mov
-*.mp4
-*.mpg
-*.rm
-*.swf
-*.vob
-*.wmv
+
 # End of https://www.gitignore.io/api/venv
