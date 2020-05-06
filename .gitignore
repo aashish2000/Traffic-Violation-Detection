@@ -9,6 +9,7 @@
 sample_data/*
 !sample_data/traffic.mp4
 .Python
+traffic-violation-detection.py
 pyvenv.cfg
 .env
 .venv
