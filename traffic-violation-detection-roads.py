@@ -31,7 +31,6 @@ from datetime import datetime
 from threading import Thread
 import numpy as np
 import argparse
-import dropbox
 import imutils
 import dlib
 import time
@@ -51,15 +50,6 @@ firebase = pyrebase.initialize_app(config)
 auth = firebase.auth()
 user = auth.sign_in_with_email_and_password("firebase_login", "firebase_password")
 db=firebase.database()
-
-
-
-def upload_file(tempFile, client, imageID):
-	# upload the image to Dropbox and cleanup the tempory image
-	print("[INFO] uploading {}...".format(imageID))
-	path = "/{}.jpg".format(imageID)
-	client.files_upload(open(tempFile.path, "rb").read(), path)
-	tempFile.cleanup()
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
