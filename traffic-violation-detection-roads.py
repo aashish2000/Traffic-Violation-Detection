@@ -20,10 +20,10 @@ print("[INFO] NOTE: When using an input video file, speeds will be " \
 	"only.")
 
 # import the necessary packages
-from pyimagesearch.centroidtracker import CentroidTracker
-from pyimagesearch.trackableobject import TrackableObject
+from vehicle_tracking.centroidtracker import CentroidTracker
+from vehicle_tracking.trackableobject import TrackableObject
 from newAlprSend import openalprLicence
-from pyimagesearch.utils import Conf
+from vehicle_tracking.utils import Conf
 from imutils.video import VideoStream
 from imutils.io import TempFile
 from imutils.video import FPS
